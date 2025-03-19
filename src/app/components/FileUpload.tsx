@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState } from  "react";
 
 export default function FileUpload() {
   const [file, setFile] = useState<File | null>(null);
