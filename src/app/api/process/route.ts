@@ -11,7 +11,7 @@ const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/
 /**
  * Extracts text from a PDF file.
  */
-const extractTextFromPDF = async (filePath: string): Promise<string> => {
+const extractTextFromPDF =  async (filePath: string): Promise<string> => {
   try {
     const dataBuffer = fs.readFileSync(filePath);
     const data = await pdf(dataBuffer);
