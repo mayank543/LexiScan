@@ -4,7 +4,7 @@ import pdf from "pdf-parse";
 import axios from "axios";
 import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config() ;
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent";
